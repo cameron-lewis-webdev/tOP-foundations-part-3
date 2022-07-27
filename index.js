@@ -24,7 +24,7 @@ console.log(multiply(5, 9));
 function capitalize (string) {
   const upr = string[0];
   const lowr = string.slice(1, );
-  return (upr.toUpperCase() + lowr.toLowerCase())
+  return (upr.toUpperCase() + lowr.toLowerCase());
 }
 
 console.log(capitalize('pROgraMming'));
