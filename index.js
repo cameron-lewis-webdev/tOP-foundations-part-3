@@ -4,7 +4,7 @@ function add7 (n) {
   return (n + 7);
 }
 
-console.log(add7(11));
+console.log(add7(11)); // 18
 
 // Exercise 2
 
@@ -12,7 +12,7 @@ function multiply (x, y) {
   return (x*y);
 }
 
-console.log(multiply(5, 9));
+console.log(multiply(5, 9)); // 45
 
 // Exercise 3
 
@@ -27,7 +27,7 @@ function capitalize (string) {
   return (upr.toUpperCase() + lowr.toLowerCase());
 }
 
-console.log(capitalize('pROgraMming'));
+console.log(capitalize('pROgraMming')); // 'Programming'
 
 // Exercise 4
 
@@ -39,4 +39,4 @@ function lastLetter (string) {
   return letter;
 }
 
-console.log(lastLetter('Programming'));
+console.log(lastLetter('Programming')); // 'g'
