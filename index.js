@@ -28,3 +28,15 @@ function capitalize (string) {
 }
 
 console.log(capitalize('pROgraMming'));
+
+// Exercise 4
+
+// This took some googling.  I found that by using the .slice method, I could give it a value of '-1' and in return
+// that would retrieve me the last letter of whichever string I give for the lastLetter variable.
+
+function lastLetter (string) {
+  const letter = string.slice(-1);
+  return letter;
+}
+
+console.log(lastLetter('Programming'));
